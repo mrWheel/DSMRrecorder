@@ -106,7 +106,7 @@ void startWiFi(const char* hostname, int timeOut)
 
   //fetches ssid and pass and tries to connect
   //if it does not connect it starts an access point with the specified name
-  //here  "DSMRrecorder:<MAC>"
+  //here  "DSMRecorder:<MAC>"
   //and goes into a blocking loop awaiting configuration
   if (!manageWiFi.autoConnect(thisAP.c_str()))
   //if (!manageWiFi.autoConnect(String(hostname).c_str()))
@@ -259,7 +259,7 @@ void indexHtml()
 {
   String index = "<html charset=\"UTF-8\">";
   index += "<style type='text/css'> body {background-color: lightblue;} </style>";
-  index += "<body><h1>DSMRrecorder</h1><br/>";
+  index += "<body><h1>DSMRecorder</h1><br/>";
   index += "<h3> &nbsp; &nbsp; " + String(_FW_VERSION) + "</h3>";
   index += "<p>Update Mode! please select a valid baudrate!</p>";
   index += "</br></body></html>";

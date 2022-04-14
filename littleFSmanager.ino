@@ -256,7 +256,7 @@ void updateFirmware()
 void reBootESP()
 {
   DebugTln(F("Redirect and ReBoot .."));
-  doRedirect("Reboot DSMRrecorder ..", 30, "/", true);
+  doRedirect("Reboot DSMRecorder ..", 30, "/", true);
       
 } // reBootESP()
 

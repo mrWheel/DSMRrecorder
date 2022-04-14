@@ -1,6 +1,6 @@
 /*
 ***************************************************************************  
- *  Program  : DSMRrecorder
+ *  Program  : DSMRecorder
  */
 #define _FW_VERSION "v0.0.1 (14-04-2022)"
 /* 
@@ -27,12 +27,12 @@
 ***************************************************************************  
 */
 
-#define _HOSTNAME         "DSMRrecorder"
+#define _HOSTNAME         "DSMRecorder"
 
 #define _WIFI_AP_ON      // will always start AP with IPAddress 10.10.10.10.
 //#define _WIFI_STA_ON     // will always start WiFi as Station
 
-#include "DSMRrecorder.h"
+#include "DSMRecorder.h"
 
 
 //===========================================================

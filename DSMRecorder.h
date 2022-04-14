@@ -1,6 +1,6 @@
 /*
 ***************************************************************************  
-**  Program : DSMRrecorder.h
+**  Program : DSMRecorder.h
 **
 **  Copyright (c) 2021 Willem Aandewiel
 **
@@ -24,7 +24,7 @@
 
 #define USE_UPDATE_SERVER
 
-#define _SETTINGS_FILE    "/DSMRrecorder.ini"
+#define _SETTINGS_FILE    "/DSMRecorder.ini"
 
 #ifndef BUILTIN_LED
   #define BUILTIN_LED     2

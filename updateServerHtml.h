@@ -5,9 +5,9 @@ static const char UpdateServerIndex[] PROGMEM =
         body {background-color: lightblue;}
      </style>
      <body>
-     <h1>DSMRrecorder Flash utility</h1>
+     <h1>DSMRecorder Flash utility</h1>
      <form method='POST' action='?cmd=0' enctype='multipart/form-data'>
-          Selecteer een "<b>DSMRrecorder_Rx_y.bin</b>" bestand<br/>
+          Selecteer een "<b>DSMRecorder_Rx_y.bin</b>" bestand<br/>
           <input type='file' accept='ino.bin' name='firmware'>
           <input type='submit' value='Flash Firmware'>
       </form>
@@ -48,7 +48,7 @@ static const char UpdateServerSuccess[] PROGMEM =
         body {background-color: lightgray;}
      </style>
      <body>
-     <h1>DSMRrecorder Flash utility</h1>
+     <h1>DSMRecorder Flash utility</h1>
      <br/>
      <h2>Update successful!</h2>
      <br/>

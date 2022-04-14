@@ -1,6 +1,6 @@
 /*
 ***************************************************************************
-**  Program  : settingsStuff, part of DSMRrecorder
+**  Program  : settingsStuff, part of DSMRecorder
 **  Version  : v3.0
 **
 **  Copyright (c) 2020 Willem Aandewiel

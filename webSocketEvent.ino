@@ -1,6 +1,6 @@
 /*
 ***************************************************************************
-**  Program  : webSocketEvent, part of DSMRrecorder
+**  Program  : webSocketEvent, part of DSMRecorder
 **  Version  : v0.4.3
 **
 **  Copyright (c) 2019, 2020, 2021, 2022 Willem Aandewiel

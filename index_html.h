@@ -13,7 +13,7 @@ static const char DSMRindex_html[] PROGMEM =
      <body>
       <div class="header">
         <h1>
-          <span id="devName">DSMRrecorder</span> &nbsp; &nbsp; &nbsp;
+          <span id="devName">DSMRecorder</span> &nbsp; &nbsp; &nbsp;
           <span id="devVersion">[version]</span> &nbsp; &nbsp; &nbsp;
           <span id="devIPaddress" style='font-size: small;'>-</span> &nbsp;
         </h1>
@@ -36,7 +36,7 @@ static const char DSMRindex_html[] PROGMEM =
           <input type='submit' class='button' name='SUBMIT' value='FS Manager' ENABLED/>
         </form>
 
-        <form action='/ReBoot' method='POST'>ReBoot DSMRrecorder 
+        <form action='/ReBoot' method='POST'>ReBoot DSMRecorder 
           <input type='submit' class='button' name='SUBMIT' value='ReBoot'>
         </form>
       </div>
@@ -92,7 +92,7 @@ static const char DSMRindex_html[] PROGMEM =
     console.log( " " );
     needReload  = true;
     let redirectButton = "<p></p><hr><p></p><p></p>"; 
-    redirectButton    += "<style='font-size: 50px;'>Disconnected from DSMRrecorder"; 
+    redirectButton    += "<style='font-size: 50px;'>Disconnected from DSMRecorder"; 
     redirectButton    += "<input type='submit' value='re-Connect' "; 
     redirectButton    += " onclick='window.location=\"/\";' />  ";     
     redirectButton    += "<p></p><p></p><hr><p></p>"; 

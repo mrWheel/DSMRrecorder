@@ -64,7 +64,7 @@ void handleInput(char cmd)
         
     case 'Q':
         delay(2000);
-        TelnetStream.println("\r\nRestart DSMRrecorder .. please wait..\r\n");
+        TelnetStream.println("\r\nRestart DSMRecorder .. please wait..\r\n");
         TelnetStream.flush();
         delay(2000);
         ESP.restart();
@@ -93,7 +93,7 @@ void menu(bool full=false)
   TelnetStream.println("*s - (re)Start recording");
   TelnetStream.println("*S - Stop recording");
   TelnetStream.println(" F - Flush recording");
-  TelnetStream.println("*Q - Quit Debug; restart DSMRrecorder");
+  TelnetStream.println("*Q - Quit Debug; restart DSMRecorder");
   TelnetStream.println("*Z - Zero number reboots");
   TelnetStream.print("-> ");
   showMenu = false;
